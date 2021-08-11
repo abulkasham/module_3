@@ -1,0 +1,56 @@
+body{
+    font-size: 16px;
+    font-family: fantasy;
+    color: #fff;
+    background-color:rgb(35, 46, 36);
+    
+}
+
+.navbar-brand h1{
+    font-family:'Courier New', Courier;
+    color: yellow;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-top: 15px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    margin-top: 20px;
+}
+.jumbotron{
+    background-color: darkblue;
+}
+.fac{
+    text-align: center;
+    color: darkorange;
+}
+/* @media (min-width : 992px) and (max-width: 1200px){
+
+}
+@media(min-width : 768px) and (max-width:991){
+
+} */
+@media(max-width : 767px){
+    .extra{
+        width: 50%;
+        position:absolute;
+        right: 0%;
+    }
+    .navbar-brand{
+        position:relative;
+    }
+    
+}
